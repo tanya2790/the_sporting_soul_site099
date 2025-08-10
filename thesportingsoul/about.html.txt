@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — The Sporting Soul</title>
+  <meta name="description" content="About Tanya Joshi — founder of The Sporting Soul. A quiet observer who writes about athletes and turning points." />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="The Sporting Soul home">
+        <img src="images/logo.png" alt="The Sporting Soul logo" class="logo" />
+        <div class="brand-text">
+          <h1>The Sporting Soul</h1>
+          <p class="tagline">Capturing the journeys that inspire the game</p>
+        </div>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="cricket.html">Cricket</a>
+        <a href="reels.html">Reels</a>
+        <a href="about.html" class="active" aria-current="page">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content about-page">
+    <h2>About</h2>
+
+    <p>Hi, I’m Tanya — a quiet observer in a noisy world — except when I’m watching sports. Then, every cheer, every gasp, every heartbeat feels like my own.</p>
+
+    <p>I write one sports story every week — not just about the score, but about the human behind the jersey. I look for that one moment — the instant when everything changed for them. Sometimes it’s a victory they never saw coming. Sometimes it’s a loss that nearly broke them. And sometimes it’s a quiet, private realization that no one saw, but that shaped their future.</p>
+
+    <p>I see the final whistle the way some see a great ending — not just in the scoreline, but in the sweat, the comebacks, the pressure that makes hearts race, and the quiet grit no one notices. It’s the stories woven between the plays — the ones that make you lean forward in your seat, forget to blink, or believe in second chances — that keep the love for sport alive.</p>
+
+    <p>Here, you’ll find me chasing those stories — the raw, human, sometimes messy bits of sport that make it unforgettable. Whether it’s a nail-biter finish or a silent moment before the serve, I’m here to put it into words you can feel.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 The Sporting Soul</p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

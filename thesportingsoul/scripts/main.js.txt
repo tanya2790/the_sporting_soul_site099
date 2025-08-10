@@ -1,0 +1,14 @@
+// Basic client-side interactions
+document.addEventListener('DOMContentLoaded', function () {
+  console.log('The Sporting Soul — site ready');
+
+  // Newsletter form gentle feedback (Formspree will still handle submission/redirect)
+  const nf = document.getElementById('newsletterForm');
+  if (nf) {
+    nf.addEventListener('submit', () => {
+      setTimeout(() => {
+        alert('Thanks — if the form does not redirect, check your Formspree endpoint.');
+      }, 400);
+    });
+  }
+});

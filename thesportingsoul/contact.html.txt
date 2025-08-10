@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Contact — The Sporting Soul</title>
+  <meta name="description" content="Contact Tanya at The Sporting Soul: story tips, collaborations, and enquiries.">
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="The Sporting Soul home">
+        <img src="images/logo.png" alt="The Sporting Soul logo" class="logo" />
+        <div class="brand-text">
+          <h1>The Sporting Soul</h1>
+          <p class="tagline">Capturing the journeys that inspire the game</p>
+        </div>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="cricket.html">Cricket</a>
+        <a href="reels.html">Reels</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h2>Contact</h2>
+    <p>Want to send a story idea, collaboration request or a quick hello? Email:
+      <a href="mailto:tanyajoshi279@gmail.com">tanyajoshi279@gmail.com</a>
+    </p>
+
+    <h3>Send a message</h3>
+    <!-- Updated Formspree action -->
+    <form id="contactForm" action="https://formspree.io/f/mgvzrvpq" method="POST">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 The Sporting Soul</p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

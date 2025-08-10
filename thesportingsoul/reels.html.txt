@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reels — The Sporting Soul</title>
+  <meta name="description" content="Short reels and highlights from The Sporting Soul." />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="The Sporting Soul home">
+        <img src="images/logo.png" alt="The Sporting Soul logo" class="logo" />
+        <div class="brand-text">
+          <h1>The Sporting Soul</h1>
+          <p class="tagline">Capturing the journeys that inspire the game</p>
+        </div>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="cricket.html">Cricket</a>
+        <a href="reels.html" class="active" aria-current="page">Reels</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h2>Instagram Reels</h2>
+    <p>Paste your reel embed codes (Instagram / YouTube) below. These are placeholders for now.</p>
+
+    <div class="reels-grid" role="list">
+      <div class="reel-box" role="listitem">Reel 1 (paste embed)</div>
+      <div class="reel-box" role="listitem">Reel 2 (paste embed)</div>
+      <div class="reel-box" role="listitem">Reel 3 (paste embed)</div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 The Sporting Soul</p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
